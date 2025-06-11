@@ -10,17 +10,22 @@
 <body>
 
     <main>
-        <label for="monedas_lista">Selecciona una moneda base:</label>
-        <select id="monedas_lista" name="moneda_base">
+        <label for="monedas_lista_base">Selecciona una moneda base:</label>
+        <select id="monedas_lista_base" name="moneda_base">
             <option value=""></option>
         </select>
     </main>
 
-    <div>
-        <label for="convertir">Selecciona a que moneda deseas convertir</label>
+    <div id="moneda_conversion">
+        <label for="convertir">Selecciona a que moneda deseas convertir: </label>
         <select name="moneda_conversion" id="convertir">
             <option value=""></option>
         </select>
+    </div>
+
+    <div id="moneda_cantidad">
+        <label for="cantidad">Ingresa la cantidad que deseas convertir:</label>
+        <input type="number" id="cantidad" min="1" max="1000000" step="1">
     </div>
 
     <div id="resultado">
