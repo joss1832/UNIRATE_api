@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Opcional: fija la imagen al desplazarse */
+    background-attachment: fixed; 
 }
 
 /*aqui inicia las especificaciones del contenedor de la moneda base*/
@@ -49,6 +49,7 @@ main{
     width: 50%;
 }
 /*aqui termina las especificaciones del contenedor de la moneda a convertir*/
+
 #moneda_cantidad{
     display: flex;
     justify-content: center;

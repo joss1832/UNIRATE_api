@@ -8,29 +8,36 @@
     <title>Monedas</title>
 </head>
 <body>
-
+    <!--aqui comienza el contenedor de la moneda base-->
     <main>
         <label for="monedas_lista_base">Selecciona una moneda base:</label>
         <select id="monedas_lista_base" name="moneda_base">
             <option value=""></option>
         </select>
     </main>
+    <!--aqui termina el contenedor de la moneda base-->
 
+    <!--aqui comienza el contenedor de la moneda a convertir-->
     <div id="moneda_conversion">
         <label for="convertir">Selecciona a que moneda deseas convertir: </label>
         <select name="moneda_conversion" id="convertir">
             <option value=""></option>
         </select>
     </div>
+     <!--aqui termina el contenedor de la moneda a convertir-->
 
+     <!--aqui comienza el contenedor de la cantidad a convertir -->
     <div id="moneda_cantidad">
         <label for="cantidad">Ingresa la cantidad que deseas convertir:</label>
         <input type="number" id="cantidad" min="1" max="1000000" step="1">
     </div>
+    <!--aqui termina el contenedor de la cantidad a convertir -->
 
+    <!--aqui comienza el contenedor donde pondre el resultado de la conversion-->
     <div id="resultado">
 
     </div>
+    <!--aqui termina el contenedor donde pondre el resultado de la conversion-->
 
 </body>
 </html>
